@@ -11,7 +11,7 @@ An app which allows a user to keep track of the Servant characters they've obtai
 ## Important Links
 
 - [Other Repo](www.link.com)
-- [Deployed API](www.link.com)
+- [Deployed API](http://agile-earth-42586.herokuapp.com/)
 - [Deployed Client](www.link.com)
 
 ## Planning Story
