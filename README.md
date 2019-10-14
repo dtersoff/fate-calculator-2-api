@@ -10,13 +10,18 @@ An app which allows a user to keep track of the Servant characters they've obtai
 
 ## Important Links
 
-- [Other Repo](www.link.com)
+- [Other Repo](https://github.com/dtersoff/fate-calculator-2-client)
 - [Deployed API](http://agile-earth-42586.herokuapp.com/)
-- [Deployed Client](www.link.com)
+- [Deployed Client](https://dtersoff.github.io/fate-calculator-2-client)
 
 ## Planning Story
 
-Lorem ipsum dolor amet cloud bread letterpress squid actually, single-origin coffee williamsburg af poutine fingerstache austin semiotics paleo man braid vexillologist. Tumeric literally banjo pickled disrupt cold-pressed thundercats shoreditch try-hard health goth intelligentsia pop-up small batch skateboard farm-to-table. Meh tofu fam, direct trade tattooed stumptown etsy everyday carry activated charcoal. Neutra cornhole polaroid literally salvia, listicle tofu.
+- [x] Create express model for servants
+- [x] Create express routes for servants
+- [x] test user and servant routes
+- [ ] Begin building client in react, using previous version handlebars as reference.
+- [ ] Begin building new features
+
 
 ### User Stories
 
