@@ -25,6 +25,10 @@ const servantSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  bond: {
+    type: Number,
+    required: true
+  },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
