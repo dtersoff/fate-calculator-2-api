@@ -50,6 +50,10 @@ router.get('/servants/:id', requireToken, (req, res, next) => {
   // req.params.id will be set based on the `:id` in the route
   Servant.findById(req.params.id)
     .then(handle404)
+    .then(servant => {
+      requireOwnership(req, servant)
+      return servant.set(req.body.servant).save()
+    })
     // if `findById` is succesful, respond with 200 and "servant" JSON
     .then(servant => res.status(200).json({ servant: servant.toObject() }))
     // if an error occurs, pass it to the handler
