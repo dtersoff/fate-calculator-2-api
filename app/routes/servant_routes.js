@@ -32,6 +32,7 @@ const router = express.Router()
 router.get('/servants', requireToken, (req, res, next) => {
   Servant.find()
     .then(servants => {
+      requireOwnership(req, servants)
       // `servants` will be an array of Mongoose documents
       // we want to convert each one to a POJO, so we use `.map` to
       // apply `.toObject` to each one
