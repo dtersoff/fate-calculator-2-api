@@ -1,5 +1,6 @@
 {
   "name": "fate-calculator-2-api",
+  "homepage": "https://dtersoff.github.io/fate-calculator-2-client",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
