@@ -19,8 +19,6 @@ An app which allows a user to keep track of the Servant characters they've obtai
 - [x] Create express model for servants
 - [x] Create express routes for servants
 - [x] test user and servant routes
-- [ ] Begin building client in react, using previous version handlebars as reference.
-- [ ] Begin building new features
 
 
 ### User Stories
@@ -54,8 +52,9 @@ DELETE | /servants/:id
 
 ### Unsolved Problems
 
-- Still need to ....
-- Would like to eventually ....
+- Would like to eventually ...
+  - [ ] Create script to load in my csv file, iterate through, and create each servant with enough delay to have unique timestamps in order to mass-load my servants while keeping the proper acquisition order from my actual game.
+    - [ ] Implement a feature to allow users to upload a csv of THEIR servants and have it populate the database for them.
 
 ## Images
 
