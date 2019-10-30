@@ -49,18 +49,16 @@ if (process.argv[2] && process.argv[3]) {
       let [user, servants] = data
 
       return Promise.all(servants.map(servant => {
-        setTimeout(() => {
-          return Servant.create({
-            name: servant.name,
-            sclass: servant.sclass,
-            level: servant.level,
-            rarity: servant.rarity,
-            atk: servant.atk,
-            hp: servant.hp,
-            bond: servant.bond,
-            owner: user._id
-          })
-        }, 10)
+        return Servant.create({
+          name: servant.name,
+          sclass: servant.sclass,
+          level: servant.level,
+          rarity: servant.rarity,
+          atk: servant.atk,
+          hp: servant.hp,
+          bond: servant.bond,
+          owner: user._id
+        })
       }))
     })
     .then(servants => {
