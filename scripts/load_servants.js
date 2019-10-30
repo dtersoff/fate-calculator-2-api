@@ -39,34 +39,29 @@ const parseServants = () => {
   })
 }
 
-if (process.argv[2] && process.argv[3]) {
-  bcrypt.hash(process.argv[3], bcryptSaltRounds)
-    .then((pword) => {
-      return User.create({email: process.argv[2], hashedPassword: pword})
-    })
-    .then(user => Promise.all([ user, parseServants() ]))
-    .then(data => {
-      let [user, servants] = data
+bcrypt.hash('password', bcryptSaltRounds)
+  .then((pword) => {
+    return User.create({email: 'fake@email', hashedPassword: pword})
+  })
+  .then(user => Promise.all([ user, parseServants() ]))
+  .then(data => {
+    let [user, servants] = data
 
-      return Promise.all(servants.map(servant => {
-        return Servant.create({
-          name: servant.name,
-          sclass: servant.sclass,
-          level: servant.level,
-          rarity: servant.rarity,
-          atk: servant.atk,
-          hp: servant.hp,
-          bond: servant.bond,
-          owner: user._id
-        })
-      }))
-    })
-    .then(servants => {
-      console.log(`Created ${servants.length} servants!`)
-    })
-    .catch(console.error)
-    .then(done)
-} else {
-  console.log('Script requires email and password')
-  done()
-}
+    return Promise.all(servants.map(servant => {
+      return Servant.create({
+        name: servant.name,
+        sclass: servant.sclass,
+        level: servant.level,
+        rarity: servant.rarity,
+        atk: servant.atk,
+        hp: servant.hp,
+        bond: servant.bond,
+        owner: user._id
+      })
+    }))
+  })
+  .then(servants => {
+    console.log(`Created ${servants.length} servants!`)
+  })
+  .catch(console.error)
+  .then(done)
