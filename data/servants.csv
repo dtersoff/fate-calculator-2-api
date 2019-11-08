@@ -1,5 +1,5 @@
 sclass,name,rarity,level,hp,atk,bond
-Shielder,Mash,3,80,13917,9830,5
+Shielder,Mash,4,80,13917,9830,5
 Caster,Charles Babbage,3,50,10315,6136,4
 Berserker,Heracles,4,50,7413,7665,5
 Berserker,Tamamo Cat,4,80,12458,10026,6
@@ -9,7 +9,7 @@ Archer,David,3,49,7112,6256,5
 Assassin,Hassan of the Hundred Faces,3,50,8032,5378,5
 Rider,Boudica,3,50,7720,4823,5
 Assassin,Hassan of the Cursed Arm,2,58,6985,5831,4
-Berserker,Spartacus,1,42,5229,3371,4
+Berserker,Spartacus,1,48,5914,4831,4
 Archer,Euryale,3,50,7265,5421,5
 Archer,Arash,1,51,6340,5097,5
 Caster,Hans Christian Andersen,2,52,7938,5365,5
@@ -85,22 +85,22 @@ Avenger,Angra Mainiiu,2,65,8751,6673,5
 Lancer,Elizabeth Bathory,4,54,8599,6633,6
 Caster,Gilles de Rais,3,48,7913,5399,5
 Caster,Thomas Edison,4,48,7470,5022,5
-Caster,Elizabeth Bathory,4,79,11291,8513,5
+Caster,Elizabeth Bathory,4,80,11454,8636,5
 Berserker,Ibaraki-Douji,4,47,7319,6484,5
-Saber,Elisabeth Bathory,4,70,9444,8338,5
+Saber,Elisabeth Bathory,4,72,9794,8643,5
 Berserker,Frankenstein,4,52,7078,6278,1
 Assassin,Jack the Ripper,5,80,11146,10159,6
 Rider,Artoria Pendragon (Santa Alter),4,57,8972,7375,5
 Assassin,Shuten-Douji,5,83,11739,11039,6
 Archer,Anne Bonny & Mary Read,4,54,8863,7246,5
 Lancer,Jeanne Santa Alter Lily,4,77,11331,8807,5
-Caster,Gilgamesh,4,70,11227,7964,5
+Caster,Gilgamesh,4,72,11419,8098,5
 Lancer,Medusa,4,50,8457,5363,5
 Lancer,Jaguar Warrior,3,70,9683,7202,5
 Rider,Quetzalcoatl,5,80,11860,10904,6
 Archer,Arjuna,5,80,11635,10889,6
 Saber,Siegfried,4,51,10833,6271,5
-Caster,Nursery Rhyme,4,55,8868,6499,5
+Caster,Nursery Rhyme,4,59,9377,6866,5
 Assassin,First Hassan,5,68,12025,10605,6
 Saber,Bedivere,3,52,8579,6798,5
 Avenger,Edmond Dantes,5,90,12497,12991,6
@@ -108,20 +108,20 @@ Rider,Saint Martha,4,50,8966,5495,5
 Saber,Artoria Pendragon (Alter),4,54,9379,8300,4
 Avenger,Hessian Lobo,4,69,9614,10323,6
 Saber,Rama,4,54,8194,6733,1
-Lancer,Karna,5,62,8769,7793,5
+Lancer,Karna,5,66,9269,8228,5
 Saber,Gawain,4,56,8603,7705,5
 Archer,Oda Nobunaga,4,48,7668,6291,5
 Archer,Atalante,4,69,10264,7117,4
 Saber,Artoria Pendragon,5,50,9362,7011,5
-Berserker,Chacha,4,72,9860,8013,1
+Berserker,Chacha,4,74,10147,8244,1
 Alter Ego,Passionlip,4,80,10901,10339,4
 Alter Ego,Meltryllis,5,90,13512,11822,5
 Archer,Emiya (Alter),4,55,9118,6639,2
 Alter Ego,Sessyoin Kiara,5,90,15606,12668,5
 Moon Cancer,BB,4,80,13643,8197,5
 Berserker,Minamoto-no-Raikou,5,57,9617,8363,0
-Berserker,Penthesilea,4,50,6937,7176,0
-Assassin,Assassin of Nightless City,4,66,8566,7017,0
+Berserker,Penthesilea,4,54,7364,7613,0
+Assassin,Assassin of Nightless City,4,70,9218,7548,4
 Berserker,Paul Bunyan,1,50,4817,3888,0
 Ruler,Sherlock Holmes,5,90,13365,11485,5
 Caster,Nero Claudius,5,78,13291,10568,5
@@ -136,3 +136,5 @@ Lancer,Parvati,4,33,6339,3920,0
 Assassin,Assassin of Paraiso,4,40,6801,5024,0
 Archer,Archer of Inferno,4,1,1728,1657,0
 Assassin,Katou Danzo,4,1,1768,1489,0
+Assassin,Carmilla,4,1,1675,1568,0
+Alter Ego,Mecha Eli-Chan,4,65,9161,8414,3
